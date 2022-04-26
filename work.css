@@ -1,0 +1,56 @@
+
+.work-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.gallery-team-item2{
+    width: calc(33.3% - 30px);
+    height: 270px;
+    margin: 15px;
+    
+    overflow: hidden;
+    position: relative;
+  
+    
+    }
+
+
+    .gallery-team-item2 img{
+        width: 100%;
+        
+    }
+
+    .gallery-team-title2{
+        visibility: hidden;
+        
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #23b7a4;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        z-index: 2;
+        transition: all 0.1s ease-in-out;
+        position: absolute;
+    }
+
+    .gallery-team-item2:hover .gallery-team-wrapper{
+        visibility: visible;
+        opacity: 1;
+        transition: all 5s;
+        cursor: pointer;
+      
+    }
+    
+    .gallery-team-item2:hover .gallery-team-title2{
+        visibility: visible;
+        opacity: 1;
+        transition: all 5s;
+        cursor: pointer;
+        
+    }

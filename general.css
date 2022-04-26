@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+main {
+    margin-top: 30px; 
+  }
+
+h1{
+    margin-left: 20px;
+}
+
+a, li, h1, h2, h4, h5, h6, p
+{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.section-block{
+max-width: 690px;
+margin: 0;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 14px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: #23b7a4;
+    border: #23b7a4;
+    cursor: pointer;
+}
+

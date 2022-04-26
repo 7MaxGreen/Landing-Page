@@ -1,0 +1,17 @@
+.services-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-item{
+   width: calc(25% - 30px);
+   margin: 15px;
+   text-align: center;
+   margin-bottom: 40px;
+   margin-top: 60px;
+   
+}
+
+.services-item p{
+    color: #c8cdd0;
+}

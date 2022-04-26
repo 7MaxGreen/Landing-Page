@@ -1,0 +1,88 @@
+
+.gallery-team{
+display: flex;
+flex-wrap: wrap;
+color: #fff;
+}
+
+
+
+.gallery-team-item{
+width: calc(25% - 30px);
+margin: 15px;
+min-height: 300px;
+overflow: hidden;
+position: relative;
+}
+
+.gallery-team-item img{
+    width: 100%;
+}
+
+.gallery-team-title{
+    
+    padding: 10px;
+    visibility: hidden;
+    background-color: #23b7a4;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    z-index: 1;
+}
+
+
+
+.gallery-team-wrapper{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(7, 0, 0, 0.5);
+    transition: all 0.1s ease-in-out;
+
+}
+
+.gallery-social-icons{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+    transition: all 0.1s ease-in-out;
+}
+
+
+
+.gallery-team-item:hover .gallery-team-wrapper{
+    visibility: visible;
+    opacity: 1;
+    transition: all 5s;
+
+}
+
+.gallery-team-item:hover .gallery-team-title{
+    visibility: visible;
+    
+    
+}
+
+.gallery-team-item:hover .gallery-social-icons{
+    visibility: visible;
+    opacity: 1;
+    transition: all 5s;
+    background-color: rgba(7, 0, 0, 0.5);
+
+}
+
+.gallery-team-item:hover .gallery-social-icons .icons{
+
+    cursor: pointer;
+
+}
